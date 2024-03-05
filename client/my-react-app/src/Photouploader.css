@@ -1,0 +1,57 @@
+/* Photouploader.css */
+
+.container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.navbar {
+  background-color: #282c34;
+  color: white;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.upload-container {
+  margin: 20px 0;
+}
+
+.upload-button {
+  background-color: #27ae60;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px; /* Makes the button oval */
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.upload-button:hover {
+  background-color: #219c54;
+}
+
+.photo-list {
+  margin-top: 20px;
+}
+
+.photo-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.photo-list li {
+  display: inline-block;
+  margin: 10px;
+}
+
+.photo-list img {
+  max-width: 200px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
